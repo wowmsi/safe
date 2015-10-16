@@ -1,0 +1,78 @@
+###### Scala specific files START #####
+*.class
+*.log
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+###### Scala specific files END #####
+
+###### Java specific files START #####
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+###### Java specific files END #####
+
+###### Haskell specific files START #####
+dist
+generated
+.gen #site binary
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+.virthualenv
+###### Haskell specific files END #####
+
+###### Latex specific files START #####
+*.acn
+*.acr
+*.alg
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.fdb_latexmk
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lot
+*.maf
+*.mtc
+*.mtc0
+*.nav
+*.nlo
+*.out
+*.pdfsync
+*.ps
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdy
+*.tdo
+###### Latex specific files END#####
+
+###### Vim specific files START#####
+*~
+*.swp
+*.swo
+.history #Generated via REPL
+###### Vim specific files END#####
